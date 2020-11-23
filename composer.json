@@ -1,0 +1,20 @@
+{
+    "name": "smart-php/code-profiler",
+    "description": "Code profiler is a tool which measures how some code consumes resources at run-time.",
+    "keywords": ["memoryusage", "time", "profiler", "php", "smart-php", "duration", "usage"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shabeer Ali M",
+            "email": "shabeer.ali.m@gmail.com"
+        }
+    ],
+    "require": {
+        "fabfuel/prophiler": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeProfiler\\": "src/"
+        }
+    }
+}
